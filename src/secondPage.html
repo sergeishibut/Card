@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Das ist Praktikum</title>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/secondStyle.min.css">
+  </head>
+  <body>
+      <div class="header">Das ist Praktikum fur A1</div>
+      <a class="button-link" href="index.html">Перейти к первой странице</a>
+
+      
+  
+      <div class="card-container">
+          <!-- Карточка 1 -->
+          <div class="card flipped" onclick="flipCard('frontWord1', 'backTranslation1', words1)">
+            <div class="card_title">A</div>
+              <div class="content">
+                
+                  <div class="front">
+                      <span id="frontWord1">Hallo</span>
+                  </div>
+                  <div class="back">
+                      <span id="backTranslation1">Привет</span>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Карточка 2 -->
+          <div class="card flipped" onclick="flipCard('frontWord2', 'backTranslation2', words2)">
+            <div class="card_title">B</div>
+              <div class="content">
+                  <div class="front">
+                      <span id="frontWord2">Haus</span>
+                  </div>
+                  <div class="back">
+                      <span id="backTranslation2">Дом</span>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Карточка 3 -->
+          <div class="card flipped" onclick="flipCard('frontWord3', 'backTranslation3', words3)">
+            <div class="card_title">C</div>
+              <div class="content">
+                  <div class="front">
+                      <span id="frontWord3">Katze</span>
+                  </div>
+                  <div class="back">
+                      <span id="backTranslation3">Кошка</span>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Карточка 4 -->
+          <div class="card flipped" onclick="flipCard('frontWord4', 'backTranslation4', words4)">
+            <div class="card_title">D</div>
+              <div class="content">
+                  <div class="front">
+                      <span id="frontWord4">Buchstabieren</span>
+                  </div>
+                  <div class="back">
+                      <span id="backTranslation4">По буквам</span>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="card flipped" onclick="flipCard('frontWord5', 'backTranslation5', words5)">
+            <div class="card_title">E</div>
+            <div class="content">
+                <div class="front">
+                    <span id="frontWord5">Buchstabieren</span>
+                </div>
+                <div class="back">
+                    <span id="backTranslation5">По буквам</span>
+                </div>
+            </div>
+        </div>
+  
+        <div class="card flipped" onclick="flipCard('frontWord6', 'backTranslation6', words6)">
+            <div class="card_title">F</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord6">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation6">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord7', 'backTranslation7', words7)">
+            <div class="card_title">G</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord7">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation7">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord8', 'backTranslation8', words8)">
+            <div class="card_title">H</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord8">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation8">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord9', 'backTranslation9', words9)">
+            <div class="card_title">I</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord9">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation9">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord10', 'backTranslation10', words10)">
+            <div class="card_title">J</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord10">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation10">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord11', 'backTranslation11', words11)">
+            <div class="card_title">K</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord11">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation11">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord12', 'backTranslation12', words12)">
+            <div class="card_title">L</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord12">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation12">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord13', 'backTranslation13', words13)">
+            <div class="card_title">M</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord13">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation13">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord14', 'backTranslation14', words14)">
+            <div class="card_title">N</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord14">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation14">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord15', 'backTranslation15', words15)">
+            <div class="card_title">O</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord15">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation15">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord16', 'backTranslation16', words16)">
+            <div class="card_title">P</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord16">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation16">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord17', 'backTranslation17', words17)">
+            <div class="card_title">R</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord17">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation17">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord18', 'backTranslation18', words18)">
+            <div class="card_title">S</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord18">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation18">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord19', 'backTranslation19', words19)">
+            <div class="card_title">T</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord19">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation19">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord20', 'backTranslation20', words20)">
+            <div class="card_title">U</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord20">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation20">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord21', 'backTranslation21', words21)">
+            <div class="card_title">V</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord21">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation21">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord22', 'backTranslation22', words22)">
+            <div class="card_title">W</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord22">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation22">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="card flipped" onclick="flipCard('frontWord23', 'backTranslation23', words23)">
+            <div class="card_title">Z</div>
+          <div class="content">
+              <div class="front">
+                  <span id="frontWord23">Buchstabieren</span>
+              </div>
+              <div class="back">
+                  <span id="backTranslation23">По буквам</span>
+              </div>
+          </div>
+        </div>
+
+        </div>
+  
+      </div>
+      <script src="../js/secondScript.js"></script>
+    </body>
+
+
+    </html>

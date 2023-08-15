@@ -23,7 +23,7 @@ body {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    background-color: #007cc3;
+    background-color: #369a68 ;
     color: white;
     border: none;
     border-radius: 5px;
@@ -33,7 +33,7 @@ body {
 }
 
 .button-link:hover {
-    background-color: #369a68;
+    background-color: #007cc3;
 }
 
 
@@ -80,9 +80,9 @@ body {
     align-items: center;
     min-height: 100%;
     min-width: 100%;
-    background: white;
+    background: rgb(255, 255, 255);
     line-height: 30px;
-    color: #007cc3;
+    color: #369a68;
     text-align: center;
     font-size: 30px;
     border-radius: 5px;
@@ -91,7 +91,7 @@ body {
   }
   
   .back  {
-    background: #007cc3;
+    background: #369a68;
     color: white;
     transform: rotateY(180deg);
   }
